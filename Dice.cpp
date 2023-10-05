@@ -13,7 +13,7 @@ int main() {
     vector<int> T(N, 100000);
 
     T[0] = 0;
-
+    
     for (int i = 1; i < N; ++i) {
         for (int j = 1; j <= M; ++j) {
             if (i-j >= 0) {
@@ -22,6 +22,5 @@ int main() {
         }
     }
     cout << T[N - 1] << endl;
-
     return 0;
 }
