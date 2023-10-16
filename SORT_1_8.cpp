@@ -12,7 +12,7 @@ void output(vector<int> v) {
         }
     }
 }
-
+//https://www.youtube.com/watch?v=8DIcNEfjfP8
 void align_heap(vector<int> &v, int start_pos, int end_pos) {
     int k = start_pos;
     while (true) {
